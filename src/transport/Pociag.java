@@ -2,12 +2,11 @@ package transport;
 
 import towar.Kontener;
 
-public class Statek extends Transport{
-
-    private static final int ROZMIAR = 70;
-    public Statek() {
+public class Pociag extends Transport{
+    private static final int ROZMIAR = 20;
+    public Pociag() {
         super();
-        setRodzaj("Statek");
+        setRodzaj("Pociag");
     }
 
     @Override
